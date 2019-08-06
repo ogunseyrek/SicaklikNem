@@ -31,5 +31,5 @@ void loop() {
  lcd.setCursor(8,1);
  lcd.print(h);
  lcd.print(" %");
- delay(2000);
+ delay(1000);
 }
