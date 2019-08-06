@@ -1,10 +1,13 @@
+//Hilmi Ogün SEYREK
+//ogunseyrek@gmail.com
+
 #include <Wire.h>
 #include <dht.h>
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
   
-#define pin 2
+#define pin 3
 dht DHT;
 
 void setup() {
